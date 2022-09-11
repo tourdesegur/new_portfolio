@@ -1,11 +1,15 @@
+:root {
+  --primary-color: #3fc574;
+  --primary-opacity: rgb(63, 197, 116, 0.15);
+}
+
 body {
-  font-family: 'Josefin Sans', serif;
+  font-family: "Josefin Sans", serif;
   text-align: center;
 }
 
 header {
   margin: 30px auto;
-
 }
 
 h1 {
@@ -14,19 +18,86 @@ h1 {
   width: max-content;
 }
 
+h2 {
+  margin-top: 100px;
+  margin-bottom: 30px;
+  font-size: 48px;
+}
+
+img {
+  object-fit: cover;
+  width: 100%;
+}
+
 .navbar-brand {
   font-size: 64px;
 }
 
-.navbar-nav, .btn-nav {
+.projects {
   font-size: 24px;
+  margin-bottom: 100px;
+}
+.navbar-nav,
+.btn-nav {
+  font-size: 24px;
+}
+i {
+  margin: 0 10px;
+}
+
+button,
+.btn-nav {
+  background-color: black;
+  color: white;
+  border-radius: 0;
+  padding: 15px 30px;
+}
+
+.projects:hover,
+.btn-nav:hover {
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+  transition: all 200ms ease-in-out;
 }
 
 .green-title {
-  color: #3FC574;
+  color: var(--primary-color);
 }
 
-.project-sort {
-  margin-top: 100px;
+#portfolio {
+  padding: 20px;
+  margin: 0 auto;
+}
+
+.filter-button:hover {
+  color: #3fc574;
+}
+
+.filter-button:focus {
+  box-shadow: none;
+  color: var(--primary-color);
+}
+
+.projects-sort {
   text-align: right;
+  margin-bottom: 30px;
+}
+
+.load-more {
+  font-size: 18px;
+}
+
+.email {
+  color: black;
+  font-size: 16px;
+}
+
+.email:hover {
+  color: var(--primary-color);
+  text-decoration: none;
+}
+
+.social-icons {
+  margin: 10px auto 30px auto;
 }
