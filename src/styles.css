@@ -45,12 +45,15 @@ i {
   margin: 0 10px;
 }
 
-button,
 .btn-nav {
   background-color: black;
   color: white;
   border-radius: 0;
   padding: 15px 30px;
+}
+
+.btn-projects {
+  margin-bottom: 100px;
 }
 
 .projects:hover,
@@ -70,6 +73,7 @@ button,
   margin: 0 auto;
 }
 
+.link-icon:hover,
 .filter-button:hover {
   color: #3fc574;
 }
@@ -86,6 +90,8 @@ button,
 
 .load-more {
   font-size: 18px;
+  text-decoration: none;
+  color: black;
 }
 
 .email {
@@ -93,6 +99,7 @@ button,
   font-size: 16px;
 }
 
+.load-more:hover,
 .email:hover {
   color: var(--primary-color);
   text-decoration: none;
@@ -100,4 +107,8 @@ button,
 
 .social-icons {
   margin: 10px auto 30px auto;
+}
+
+.link-icon {
+  color: black;
 }
