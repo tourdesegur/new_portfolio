@@ -39,7 +39,7 @@
     <title>Contacts</title>
   </head>
   <body>
-    <header>
+    <div class="container-fluid">
       <nav class="navbar navbar-expand-lg navbar-light">
         <a class="navbar-brand" href="index.html" title="Back to homepage"
           >Me.</a
@@ -48,35 +48,37 @@
           class="navbar-toggler"
           type="button"
           data-toggle="collapse"
-          data-target="#navbarNavAltMarkup"
-          aria-controls="navbarNavAltMarkup"
+          data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-          <div class="navbar-nav">
-            <a
-              class="nav-item nav-link active"
-              href="index.html"
-              title="Back to homepage"
-              >Home <span class="sr-only">(current)</span></a
-            >
-            <a class="nav-item nav-link" href="about.html" title="About me"
-              >About</a
-            >
 
-            <a class="nav-item nav-link" href="contact.html" title="Contact me"
-              >Contact</a
-            >
-            <a class="btn btn-primary" href="projects.html" role="button"
-              >View all projects</a
-            >
-          </div>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto menu">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html"
+                >Home <span class="sr-only">(current)</span></a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html" title="About me">About</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="contact.html" title="Contact me"
+                >Contact</a
+              >
+            </li>
+          </ul>
+
+          <a class="btn btn-nav" href="projects.html" role="button"
+            >View all projects</a
+          >
         </div>
       </nav>
-    </header>
+    </div>
     Contact me
   </body>
 </html>
