@@ -15,7 +15,7 @@ header {
 h1 {
   font-size: 64px;
   margin: 100px auto;
-  width: max-content;
+  width: 80%;
 }
 
 h2 {
@@ -40,6 +40,14 @@ img {
 .navbar-nav,
 .btn-nav {
   font-size: 24px;
+}
+
+.menu {
+  padding-left: 30%;
+}
+.nav-item {
+  padding: 0 20px;
+  font-size: 18px;
 }
 i {
   margin: 0 10px;
@@ -111,4 +119,16 @@ i {
 
 .link-icon {
   color: black;
+}
+
+@media (max-width: 991px) {
+  h1 {
+    font-size: 48px;
+  }
+}
+
+@media (max-width: 659px) {
+  h1 {
+    font-size: 36px;
+  }
 }
