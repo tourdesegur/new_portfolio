@@ -120,6 +120,16 @@ i {
 .link-icon {
   color: black;
 }
+
+.link-icon-contact {
+  position: relative;
+  top: 3px;
+}
+
+.linkedin-contact,
+.insta-contact {
+  color: var(--primary-color);
+}
 .container-about {
   margin: 0 auto;
   padding: 0;
