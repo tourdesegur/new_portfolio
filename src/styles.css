@@ -178,16 +178,35 @@ strong {
   h1 {
     font-size: 48px;
   }
+  h2 {
+    font-size: 36px;
+  }
 }
 
 @media (max-width: 659px) {
   h1 {
     font-size: 36px;
   }
+  h2 {
+    font-size: 28px;
+  }
+  .btn-nav {
+    font-size: 18px;
+  }
 }
 
-@media (max-width: 688px) {
+@media (max-width: 767px) {
   .container-photo {
     display: none;
+  }
+
+  .p-about,
+  .subtitle,
+  .p-cv,
+  .p-connect,
+  .title-about,
+  strong {
+    margin-right: 10%;
+    margin-left: 10%;
   }
 }
