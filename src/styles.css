@@ -120,6 +120,59 @@ i {
 .link-icon {
   color: black;
 }
+.container-about {
+  margin: 0 auto;
+  padding: 0;
+  padding-bottom: 35px;
+}
+
+.about-description {
+  text-align: left;
+}
+
+.subtitle {
+  font-size: 24px;
+  color: var(--primary-color);
+}
+
+.title-about {
+  margin-top: 20%;
+  margin-bottom: 10px;
+}
+
+.p-about {
+  margin-top: 30px;
+}
+.p-about,
+.subtitle,
+.p-cv,
+.p-connect,
+.title-about,
+strong {
+  margin-left: 20%;
+}
+
+.subtitle,
+.p-cv,
+.p-connect {
+  font-weight: bold;
+}
+.linkedin-logo {
+  width: 60px;
+}
+
+.pdf-icon {
+  width: 20px;
+}
+
+.linkedin-logo,
+.pdf-icon {
+  position: relative;
+  bottom: 2px;
+}
+.container-photo {
+  text-align: right;
+}
 
 @media (max-width: 991px) {
   h1 {
@@ -130,5 +183,11 @@ i {
 @media (max-width: 659px) {
   h1 {
     font-size: 36px;
+  }
+}
+
+@media (max-width: 688px) {
+  .container-photo {
+    display: none;
   }
 }
