@@ -178,6 +178,11 @@ strong {
   margin-top: 20px;
 }
 
+.row-contact {
+  margin-left: 10%;
+  margin-right: 30%;
+}
+
 @media (max-width: 991px) {
   h1 {
     font-size: 48px;
