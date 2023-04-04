@@ -188,9 +188,9 @@ strong {
   margin-top: 20px;
 }
 
-.row-contact {
-  margin-left: 10%;
-  margin-right: 30%;
+.email-container {
+  margin-top: -50px;
+  margin-bottom: 100px;
 }
 
 .github {
