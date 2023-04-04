@@ -102,12 +102,28 @@ i {
   color: black;
 }
 
+.link-project {
+  text-decoration: none;
+  color: black;
+}
+
+.link-certificate {
+  color: var(--primary-color);
+  text-decoration: none;
+}
+
+.link-certificate:hover {
+  color: black;
+  text-decoration: none;
+}
+
 .email {
   color: black;
   font-size: 16px;
 }
 
 .load-more:hover,
+.link-project:hover,
 .email:hover {
   color: var(--primary-color);
   text-decoration: none;
@@ -157,6 +173,7 @@ i {
 .subtitle,
 .p-cv,
 .p-connect,
+.p-certificates,
 .title-about,
 strong {
   margin-left: 20%;
@@ -164,7 +181,8 @@ strong {
 
 .subtitle,
 .p-cv,
-.p-connect {
+.p-connect,
+.p-certificates {
   font-weight: bold;
 }
 .linkedin-logo {
