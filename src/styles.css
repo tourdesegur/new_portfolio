@@ -29,6 +29,10 @@ img {
   width: 100%;
 }
 
+i {
+  margin: 0 10px;
+}
+
 .navbar-brand {
   font-size: 64px;
 }
@@ -49,10 +53,6 @@ img {
   padding: 0 20px;
   font-size: 18px;
 }
-i {
-  margin: 0 10px;
-}
-
 .btn-nav {
   background-color: black;
   color: white;
@@ -252,6 +252,7 @@ strong {
   .p-about,
   .subtitle,
   .p-cv,
+  .p-certificates
   .p-connect,
   .title-about,
   strong {
